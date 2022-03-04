@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+h1{
+    
+    padding-top: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+p{
+    color: whitesmoke;
+    font-size: larger;
+    margin-left: 20px;
+}
+
+.title{
+    background-color: black;
+    
+}
+
+.images{
+    padding: 25px;
+    margin-left: calc(20% - 80px);
+    
+}
+
+img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    opacity: 0.5;
+    background: rgba(0,0,0,.5);
+}
+
+img:hover{
+    opacity: 1;
+}

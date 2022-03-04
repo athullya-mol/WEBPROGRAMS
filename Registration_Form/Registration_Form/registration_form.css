@@ -1,0 +1,90 @@
+body{
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fluid-container{
+    background-color: white;
+    border: black 0.2px;
+    box-shadow: slategray;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+h2{
+    padding-left: 15px;
+}
+
+table[name="login"],table[name="info"]{
+    margin-left: 25px;
+    border-spacing:25px ;
+    width: 100%;
+    padding-right: 25px;
+}
+
+input{
+    width: 100%;
+    font-size: large;
+}
+input[type="radio"]
+{
+    width: 25%;
+}
+
+select{
+    width: 100%;
+}
+
+label{
+    font-size: large;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray;
+  }
+  input:focus {
+    border-color: cornflowerblue;
+    transition: 0.4s;
+    left:0;
+  }
+
+  textarea{
+      outline: 0;
+      width: 100%;
+      resize: none;
+      border-width: 2px;
+      font-size: large;
+  }
+
+  textarea:focus{
+    border-color: cornflowerblue;
+    transition: 0.4s;
+    left:0;
+  }
+
+  button{
+      margin-left: 20px;
+      padding: 10px 13px;
+      font-size: 15px;
+      border-radius: 10px;
+      box-shadow: none;
+  }
+
+  button[type="submit"]{
+      background-color: rgb(11, 170, 45);
+      color: white;
+  }
+  
+  button[type="reset"]{
+    background-color: red;
+    color: white;
+}

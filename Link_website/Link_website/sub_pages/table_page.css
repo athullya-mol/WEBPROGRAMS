@@ -1,0 +1,61 @@
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+.pos{
+    text-align: center;
+    font-size: x-large;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.644);
+    color: whitesmoke;
+}
+
+button{
+    font-size: larger;
+    size: 50px;
+    padding: 14px 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: turquoise;
+}
+
+button:hover{
+    background-color: rgb(9, 141, 128);
+}
+
+.title{
+    font-size: x-large;
+}
+
+.image{
+    padding-right: 20px;
+}
+
+.link{
+    font-size: larger;
+    size: 50px;
+    padding: 14px 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: skyblue;
+}
+
+.link:hover{
+    background-color: rgb(20, 128, 170);
+}
+
+.des{
+    font-size: x-large;
+}
+
